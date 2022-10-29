@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(6, 13, 24, 0.7), rgba(25, 35, 66, 0.7)), url(stumpsrest.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.logo {
+    margin: 20px 0 0 80px;
+}
+
+.img {
+    margin-left: 6%;
+    padding: 13px;
+
+}
+
+.sub-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35%;
+    margin-left: 212px;
+    margin: 0 60px 0 0;
+}
+
+.sub-nav ul {
+    display: flex;
+    font-weight: bolder;
+
+}
+
+.sub-nav li {
+
+    list-style: none;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+}
+
+.sub-nav li a {
+    margin: 10px;
+}
+
+
+.Classic {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding-top: 10%;
+    height: 60%;
+}
+
+.Classic h1 {
+    font-size: 40px;
+}
+
+
+
+.Classic p {
+    margin-top: 10px;
+    color: #777;
+}
+
+.sub-Classic {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div1 {
+
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.div1 img {
+    width: 100%;
+    border-radius: 3%;
+}
+
+.div1 h3 {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.div1 p {
+    margin-top: 10px;
+    color: #777;
+    font-size: small;
+}
+
+
+.stump {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+.castle{
+    text-align: center;
+}
+
+.castle h1{
+    font-size: 40px;
+}
+
+.castle p{
+    margin-top: 10px;
+    color: #777;
+}
+
+.sub-stump {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    
+}
+
+.div2 {
+    
+    margin-left: auto;
+    width: 80%;
+    padding-top: 10px;
+    height: 60%;
+    
+}
+
+.div2 img {
+    width: 80%;
+    border-radius: 15px;
+    margin-left: 80px; 
+    margin-top: 40px;
+    margin-top: 20px;
+
+
+}
+
+.div2 h3{
+    margin-left: 90px; 
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.div2 p{
+    margin-left: 80px; 
+    margin-bottom: 10px;
+}
+
+.breathtaking{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px ;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+}
+
+.hp{
+    margin-top: 40px;
+    text-align: center;
+}
+.hp h1{
+    font-size: 40px;
+}
+
+.hp p{
+    margin-top: 15px;
+    color: #777;
+    font-size: 20px;
+}
+
+.catches{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 50px;
+}
+
+.div3{
+    margin-left: auto;
+    width: 75%;
+    padding-top: 10px;
+    height: 60%; 
+}
+
+.div3 img{
+    width: 95%;
+    border-radius: 15px;
+    margin-left: 50px; 
+    margin-top: 40px;
+     
+}
+
+.div3 h3{
+    margin-left: 75px; 
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.div3 p{
+    margin-left: 80px; 
+    margin-bottom: 30px; 
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    margin-top: 250px;
+    
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 18%;
+    margin-top: 10px;
+}
+
+.icon i{
+    color: rgb(28, 32, 19);
+}
+
+.footer p{
+    letter-spacing: 1px;
+    margin-top: 30px;
+    color: rgb(165, 164, 164);
+}

@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(6, 13, 24, 0.7), rgba(25, 35, 66, 0.7)), url(stumpsrest.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.logo {
+    margin: 20px 0 0 80px;
+}
+
+.img {
+    margin-left: 6%;
+    padding: 13px;
+
+}
+
+.sub-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35%;
+    margin-left: 212px;
+    margin: 0 60px 0 0;
+}
+
+.sub-nav ul {
+    display: flex;
+    font-weight: bolder;
+
+}
+
+.sub-nav li {
+
+    list-style: none;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+}
+
+.sub-nav li a {
+    margin: 10px;
+}
+
+
+
+
+.content {
+    display: flex;
+    margin-top: 10px;
+    height: 100vh;
+    width: 100%;
+}
+
+.sub-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 60px;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 90%;
+}
+
+
+
+
+.wic {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 50vh;
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+
+.wic img {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.wic h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+
+}
+
+.wic p {
+    width: 85%;
+    color: #868585;
+    margin-bottom: 5px;
+
+}
+
+
+
+.box{
+    border: 1px solid rgb(172, 172, 172);
+    width: 80%;
+    height: 60vh;
+    margin-top: 50px;
+}
+
+.box h2{
+    font-size: 25px;
+    margin-left: 20px;
+    
+
+}
+
+.sub-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+
+}
+
+.input-box{
+    margin: 15px 10px;
+    padding: 5px 12px;
+    width: 90%;
+    font-size: 15px;
+    background-color: #F0F0F0;
+    border: none;
+}
+
+.btn{
+    background-color: rgb(74, 109, 50);
+    color: #fff;
+    width: 110px;
+    height: 40px;
+    border: none;
+    margin-left: 16px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 50vh
+}
+
+.sub-post {
+    margin-top: 20px;
+    width: 75%;
+    text-align: center;
+}
+
+.sub-post h3 {
+    background: #f44336;
+    color: #fff3f3;
+    padding: 7px 0px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.div {
+    width: 74%;
+    margin-top: 20px;
+}
+
+.sub-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(145 145 145);
+
+}
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin-top: 900px;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 18%;
+}
+
+.icon i {
+    color: rgb(28, 32, 19);
+}
+
+.footer p {
+    letter-spacing: 1px;
+    margin-top: 30px;
+    color: rgb(165, 164, 164);
+}
